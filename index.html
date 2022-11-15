@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Article preview component</title>
+</head>
+
+<body class="w-100 d-flex  flex-column justify-content-center align-items-center">
+  <div class="card m-sm-5 m-3   " style="max-width: 900px;">
+    <div class="row g-0">
+
+      <!--added as background to this section for image overflow-->
+      <div class="col-sm-5"></div>
+
+        <!--contents-->
+      <div class="col-sm-7 ">
+        <div class="card-body">
+          <h3 class="card-title m-sm-4 m-2 ">
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </h3>
+
+          <p class="card-text m-sm-4 mx-2 my-4 "> Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.</p>
+
+          <div class="card-text  d-flex m-sm-4 m-2 align-items-center justify-content-between">
+            <div class="d-flex">
+              <img src="/images/avatar-michelle.jpg" style="height:3.5rem ;" class="mg-fluid rounded-circle" alt="">
+              <small class="text-muted mx-2">
+                <b> Michelle Appleton </b><br>
+                <span> 28 Jun 2020 </span></small>
+            </div>
+
+            <img src="/images/icon-share.svg" id="share" onclick="mouseclick()"
+              class="share p-3 mx-2 rounded-circle" onblur="b" alt="">
+          </div>
+
+          <div class="social position-absolute overflow-hidden">
+            <div>
+              <div class="right-point"></div>
+              <div class="card-body px-5 sociallink"
+                style="background-color:rgb(73, 85, 107); color: white !important; border-radius: 10px;">
+                SHARE
+                <a href="#"><img src="/images/icon-facebook.svg" class="m-2" alt=""></a>
+                <a href="#"><img src="/images/icon-twitter.svg" class="m-2" alt=""></a>
+                <a href="#"><img src="/images/icon-pinterest.svg" class="m-2" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/DenizDurna?tab=repositories" target="_blank">Deniz Durna</a>.
+  </div>
+  <script src="/app.js"></script>
+</body>
+
+</html>
